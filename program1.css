@@ -599,13 +599,13 @@
   text-align: center;
 }
 
-.sns{
+ul.sns{
   display: flex;
   margin-top: 20px;
   justify-content: center;
   margin-bottom: 20px;
 }
-.sns li{
+ul.sns li{
   width: 30px;
   margin-left: 10px;
   margin-right: 10px;
