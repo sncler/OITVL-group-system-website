@@ -1,5 +1,6 @@
     body{
       font-size:2rem;
+        min-height:100vh;
     }
     .option{
       display: flex; /*要素の並列化*/
