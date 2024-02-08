@@ -401,7 +401,7 @@
   line-height: 2;
 }
 .concept-img{
-  background-image: url(../images/warld1.png);
+  background-image: url(./warld1.png);
   background-position: center;
   background-size: cover;
   height: 340px;
@@ -409,7 +409,7 @@
 }
 
 .active-img{
-  background-image: url(../images/スクリーンショット\ 2023-12-26\ 140544.png);
+  background-image: url(./スクリーンショット\ 2023-12-26\ 140544.png);
   background-position: center;
   background-size: cover;
   height: 340px;
@@ -492,7 +492,7 @@
 }
 
 .report-img1{
-  background-image: url(../images/クリスマスライブ.gif);
+  background-image: url(./クリスマスライブ.gif);
   background-position: center;
   background-size: cover;
   height: 340px;
@@ -501,7 +501,7 @@
 
 @media screen and (max-width:500px) {
   .report-img1{
-    background-image: url(../images/クリスマスライブ.gif);
+    background-image: url(./クリスマスライブ.gif);
     background-position: center;
     background-size: cover;
     height: 340px;
@@ -511,7 +511,7 @@
   }
 
   .report-img2{
-    background-image: url(../images/qa.png);
+    background-image: url(./qa.png);
     background-position: center;
     background-size: cover;
     height: 340px;
@@ -521,7 +521,7 @@
   }
   
   .report-img3{
-    background-image: url(../images/No\ Date.png);
+    background-image: url(./No\ Date.png);
     background-position: center;
     background-size: cover;
     height: 340px;
@@ -537,7 +537,7 @@
 }
 
 .report-img2{
-  background-image: url(../images/qa.png);
+  background-image: url(./qa.png);
   background-position: center;
   background-size: cover;
   height: 340px;
@@ -545,7 +545,7 @@
 }
 
 .report-img3{
-  background-image: url(../images/No\ Date.png);
+  background-image: url(./No\ Date.png);
   background-position: center;
   background-size: cover;
   height: 340px;
