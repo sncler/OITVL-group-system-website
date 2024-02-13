@@ -1,6 +1,6 @@
     body{
       font-size:2rem;
-        min-height:100vh;
+      min-height: 100vh;
     }
     .option{
       display: flex; /*要素の並列化*/
@@ -12,6 +12,14 @@
       top: 0;
       font-family: 'Poppins', sans-serif;
       z-index: 100;
+    }
+
+    .sns > .header_sns{
+      width: 70px;
+    }
+
+    .upsns{
+      text-align: center;
     }
 
     .option:hover{
@@ -384,6 +392,11 @@
   font-weight: 300;
 }
 
+#report h2 span span{
+  font-size: 20px;
+  font-weight: 200;
+}
+
 .title{
   font-size: 50px;
   font-weight: 500;
@@ -402,7 +415,7 @@
   line-height: 2;
 }
 .concept-img{
-  background-image: url(./warld1.png);
+  background-image: url(../images/warld1.png);
   background-position: center;
   background-size: cover;
   height: 340px;
@@ -410,7 +423,7 @@
 }
 
 .active-img{
-  background-image: url(./スクリーンショット\ 2023-12-26\ 140544.png);
+  background-image: url(../images/スクリーンショット\ 2023-12-26\ 140544.png);
   background-position: center;
   background-size: cover;
   height: 340px;
@@ -493,7 +506,7 @@
 }
 
 .report-img1{
-  background-image: url(./クリスマスライブ.gif);
+  background-image: url(../images/クリスマスライブ.gif);
   background-position: center;
   background-size: cover;
   height: 340px;
@@ -502,7 +515,7 @@
 
 @media screen and (max-width:500px) {
   .report-img1{
-    background-image: url(./クリスマスライブ.gif);
+    background-image: url(../images/クリスマスライブ.gif);
     background-position: center;
     background-size: cover;
     height: 340px;
@@ -512,7 +525,7 @@
   }
 
   .report-img2{
-    background-image: url(./qa.png);
+    background-image: url(../images/qa.png);
     background-position: center;
     background-size: cover;
     height: 340px;
@@ -522,7 +535,7 @@
   }
   
   .report-img3{
-    background-image: url(./No\ Date.png);
+    background-image: url(../images/No\ Date.png);
     background-position: center;
     background-size: cover;
     height: 340px;
@@ -538,7 +551,7 @@
 }
 
 .report-img2{
-  background-image: url(./qa.png);
+  background-image: url(../images/qa.png);
   background-position: center;
   background-size: cover;
   height: 340px;
@@ -546,7 +559,7 @@
 }
 
 .report-img3{
-  background-image: url(./No\ Date.png);
+  background-image: url(../images/No\ Date.png);
   background-position: center;
   background-size: cover;
   height: 340px;
@@ -599,13 +612,13 @@
   text-align: center;
 }
 
-ul.sns{
+.sns{
   display: flex;
   margin-top: 20px;
   justify-content: center;
   margin-bottom: 20px;
 }
-ul.sns li{
+.sns li{
   width: 30px;
   margin-left: 10px;
   margin-right: 10px;
@@ -613,7 +626,7 @@ ul.sns li{
 }
 
 footer{
-  background-color: rgba(146, 144, 144, 0.815);
+  background-color: rgb(161, 161, 161);
 }
 
 .footer_bottom{
@@ -642,4 +655,15 @@ footer{
 
 .footer_bottom a:hover{
   color: #0481A2;
+}
+
+.footer_messe{
+  background-color: #333;
+  color: #fff;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.footer_messe a{
+  color: #fff;
 }
