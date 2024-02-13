@@ -5,31 +5,43 @@
   <title>OITVL研_システム実装班</title>
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
-  <link rel="stylesheet" type="text/css" href="program1.css">
+  <link rel="stylesheet" href="./css/program1.css">
+  <link rel="stylesheet" href="./css/program1-opning.css">
 
   <!-- Google font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Noto+Sans+JP:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
 
   <!--==============レイアウトを制御する独自のCSSを読み込み===============-->
-  <link rel="stylesheet" type="text/css" href="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/move02/9-1/css/reset.css">
-  <link rel="stylesheet" type="text/css" href="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/move02/9-1/css/9-1.css">
+  <link rel="stylesheet" type="text/css" href="http://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/move02/9-1/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="http://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/move02/9-1/css/9-1.css">
   
 </head>
+
 <body>
+  <div class="opning_shutter">
+    <p class="opning_text">
+      OIT VL<span>...</span>
+    </p>
+    <hr/>
+  </div>
+
   <header class="option">
     <div class="logo">
       <a href="file:///C:/Users/sncl7/Documents/js/program1/program1.html" class="mainhedder"><h2><span>OITVL</span>システム実装班</h2></a>
+      
       <ul class="list_nav_hedder">
         <li>
             <a href="https://oitvl.com/">OITVLホームページへ</a>
         </li>
+
         <li>
             <a href="https://oitvl.com/#report">新着情報</a>
         </li>
         <li>
-            <a class="nav_botom" href="https://docs.google.com/forms/d/e/1FAIpQLSeItqz5cvPB1ZHmfANIMqtxcIXrgudDxnhrefvgSYy0VBI_kw/viewform">お問い合わせ</a>
+            <a class="nav_botom" href="https://docs.google.com/forms/d/e/1FAIpQLSeItqz5cvPB1ZHmfANIMqtxcIXrgudDxnhrefvgSYy0VBI_kw/viewform">お問い合わせフォーム</a>
         </li>
       </ul>
     </div>
@@ -85,12 +97,34 @@
 
   <main>
       <div class="slide" id="makeImg">
-        <img src="./newlogo.png"   alt="ogping">
-        <img src="./warld1.png"    alt="warld1">
-        <img src="./qa.png"    alt="qa">
+        <img src="images/newlogo.png"   alt="ogping">
+        <img src="images/warld1.png"    alt="warld1">
+        <img src="images/qa.png"    alt="qa">
       </div>
   
     <div class="memo">
+
+      <div class="upsns">
+        <p class="text">他のアプリ・サイトでも最新情報のお届けをしています！！</p>
+        <p class="text">↓ ↓ ↓</p>
+        <ul class="sns">
+          <li class="header_sns">
+            <a href="https://note.com/good_eel104/" target="_blank">
+              <img src="images/icon.png" alt="note">
+            </a>
+          </li>
+          <li class="header_sns">
+            <a href="https://twitter.com/oit_vlken?ref_src=twsrc%5Etfw%7Ctwcamp%5Eembeddedtimeline%7Ctwterm%5Escreen-name%3Aoit_vlken%7Ctwcon%5Es1_c1" target="_blank">
+              <img src="images/logo-black.png" alt="x">
+            </a>
+          </li>
+          <li class="header_sns">
+              <a href="https://oitvl.com/" target="_blank">
+                <img src="images/ogpimg.png" alt="OITVL"/>
+              </a>
+          </li>
+        </ul>
+      </div>
 
     <section id="concept" class="container">
       <div class="headding">OITVL</div>
@@ -131,7 +165,7 @@
     </section>
     
     <section id="report" class="container">
-      <h2 class="title pop">Report<span> -活動実績- </span></h2>
+      <h2 class="title pop">Report<span> -活動実績<span>(2023年度以降)</span>- </span></h2>
       <div class="report_in flex">
         <div class="reportheadding">OITVL</div>
         <div class="column-40 report-img1">
@@ -214,8 +248,8 @@
     </div>
     <div class="wrapper">
     <ul class="gifpng">
-      <li><img class="iapng-image" src="newlogo.png" alt="miku"></li>
-      <!-- <li><img class="apng-image" src="newlogo.png" alt="miku"></li> -->
+      <li><img class="iapng-image" src="images/newlogo.png" alt="miku"></li>
+      <!-- <li><img class="apng-image" src="images/newlogo.png" alt="miku"></li> -->
     </ul>
     </div>
   </main>
@@ -226,17 +260,17 @@
       <ul class="sns">
         <li>
           <a href="https://note.com/good_eel104/" target="_blank">
-            <img src="./icon.png" alt="note">
+            <img src="images/icon.png" alt="note">
           </a>
         </li>
         <li>
           <a href="https://twitter.com/oit_vlken?ref_src=twsrc%5Etfw%7Ctwcamp%5Eembeddedtimeline%7Ctwterm%5Escreen-name%3Aoit_vlken%7Ctwcon%5Es1_c1" target="_blank">
-            <img src="./logo-black.png" alt="x">
+            <img src="images/logo-black.png" alt="x">
           </a>
         </li>
         <li>
             <a href="https://oitvl.com/" target="_blank">
-              <img src="./ogpimg.png" alt="OITVL"/>
+              <img src="images/ogpimg.png" alt="OITVL"/>
             </a>
         </li>
       </ul>
@@ -254,6 +288,28 @@
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSeItqz5cvPB1ZHmfANIMqtxcIXrgudDxnhrefvgSYy0VBI_kw/viewform">お問い合わせ</a>
         </li>
       </ul>
+    </div>
+    
+    <div class="footer_messe">
+      <p>
+        当サークルが制作したコンテンツには
+        <a href="http://piapro.jp/license/pcl/summary">ピアプロ・キャラクター・ライセンス</a>
+        に基づいて<br>
+        クリプトン・フューチャー・メディア株式会社のキャラクター「MEIKO／KAITO／初音ミク／鏡音リン・レン／巡音ルカ」を描いたものが含まれています。
+      </p>
+      <p>
+        「MEIKO／KAITO／初音ミク／鏡音リン・レン／巡音ルカ」はクリプトン・フューチャー・メディア株式会社の著作物です。<br>
+        © Crypton Future Media, INC. www.piapro.net
+      </p>
+      <p>
+        当サークルのイベントはピアプロ・キャラクター・ライセンスおよび著作権法第38条第1項（営利を目的としない上演等）、第20条（同一性保持権）に基づいて実施します。
+      </p>
+      <p>
+        当サークルは学生による大学公認の課外活動団体であり、所属大学やクリプトン・フューチャー・メディア等が開催する公式のイベント・団体とは一切関係ありません。
+      </p>
+      <p>
+        © 2020 OITバーチャルライブ研究会
+      </p>
     </div>
   </footer>
 
