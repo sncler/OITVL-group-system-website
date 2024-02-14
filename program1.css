@@ -291,6 +291,7 @@
       right: 3%;
       max-height: 150px;
       max-width: 200px;
+      font-size:2rem;
       bottom: 3%;
       z-index: 100;
     }
