@@ -482,6 +482,24 @@
   z-index: -1;
 }
 
+@media screen and (max-width:400px) {
+.headding{
+  font-size: 120px;
+}
+
+.reportheadding{
+  font-size: 100px;
+}
+
+.reheadding{
+  font-size: 120px;
+}
+
+.reportreheadding{
+  font-size: 100px;
+}
+}
+
 #report{
   margin-bottom: 120px;
 }
